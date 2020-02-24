@@ -23,4 +23,5 @@ from calib_demo1 import operation
 urlpatterns = [
     url(r'^page1/$', page1),
     url(r'^world_start/$', operation.world_start),
+    path('admin/', admin.site.urls),
 ]
