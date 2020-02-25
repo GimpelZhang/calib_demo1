@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
 from django.conf.urls import url
 
 from calib_demo1.view import page1
@@ -23,4 +23,7 @@ from calib_demo1 import operation
 urlpatterns = [
     url(r'^page1/$', page1),
     url(r'^world_start/$', operation.world_start),
+    path('admin/', admin.site.urls),
+    path('polls/', include('polls.urls')),
 ]
+
