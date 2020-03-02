@@ -22,5 +22,7 @@ class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
+    param1 = models.FloatField(default=0.0)
+    param2 = models.FloatField(default=0.0)
     def __str__(self):
         return self.choice_text

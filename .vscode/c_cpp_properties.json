@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/junchuan/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/junchuan/catkin_ws/src/octopus/dashgo/dashgo_explore/include/**",
+                "/home/junchuan/catkin_ws/src/octopus_simulations/octopus_plugins/include/**",
+                "/home/junchuan/catkin_ws/src/octopus_simulations/octopus_sineva_nav_srv/include/**",
+                "/home/junchuan/catkin_ws/src/Sineva_VINS_Localization/Localization/camera_models/include/**",
+                "/home/junchuan/catkin_ws/src/Sineva_VINS_Localization/Mapping/camera_models/include/**",
+                "/home/junchuan/catkin_ws/src/octopus_simulations/octopus_stereo_matching/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
