@@ -71,7 +71,7 @@ def vote(request, question_id):
         stdin, stdout, stderr = ssh.exec_command(command2)
         out2 = stdout.readlines() 
         selected_choice.param2 = float(out2[0])
-
+        ssh.close()
         selected_choice.save()
         # Always return an HttpResponseRedirect after successfully dealing
         # with POST data. This prevents data from being posted twice if a
